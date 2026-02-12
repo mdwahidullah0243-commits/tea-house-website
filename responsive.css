@@ -30,6 +30,23 @@
         width: 90%;
         margin-inline: auto;
     }
+
+    .presented {
+        grid-template-columns: 1fr;
+    }
+
+    .fresh-card-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .fresh-card-1 {
+        grid-row: span 1;
+    }
+
+    .fresh-card-2 {
+        grid-row: span 2;
+    }
 }
 
 
@@ -73,6 +90,23 @@
         width: 90%;
         margin-inline: auto;
     }
+
+    .presented {
+        grid-template-columns: 1fr;
+    }
+
+    .fresh-card-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .fresh-card-1 {
+        grid-row: span 1;
+    }
+
+    .fresh-card-2 {
+        grid-row: span 2;
+    }
 }
 
 
@@ -103,5 +137,22 @@
         gap: 40px;
         width: 90%;
         margin-inline: auto;
+    }
+
+    .presented {
+        grid-template-columns: 1fr;
+    }
+
+    .fresh-card-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .fresh-card-1 {
+        grid-row: span 1;
+    }
+
+    .fresh-card-2 {
+        grid-row: span 2;
     }
 }
