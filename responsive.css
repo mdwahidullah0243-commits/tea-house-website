@@ -67,6 +67,25 @@
         width: 85%;
         margin-inline: auto;
     }
+
+    .news-event {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .news-event-description {
+        padding-inline: 0px;
+    }
+
+    .news-event-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .event-card-img {
+        width: 100%;
+    }
 }
 
 
@@ -147,6 +166,25 @@
         width: 85%;
         margin-inline: auto;
     }
+
+    .news-event {
+        width: 85%;
+        margin-inline: auto;
+    }
+
+    .news-event-description {
+        padding-inline: 0px;
+    }
+
+    .news-event-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .event-card-img {
+        width: 100%;
+    }
 }
 
 
@@ -213,5 +251,19 @@
     .clients-card-box {
         width: 80%;
         margin-inline: auto;
+    }
+
+    .news-event-description {
+        padding-inline: 16px;
+    }
+
+    .news-event-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .event-card-img {
+        width: 100%;
     }
 }
