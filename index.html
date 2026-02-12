@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <!-- banner section | grid grid-cols-2 -->
+    <!-- banner section | hidden/grid -->
 
     <section class="banner grid grid-cols-2 w-[90%] mx-auto
                     sm:max-md:w-[80%] sm:max-md:grid-cols-1 sm:max-md:gap-[30px] md:max-lg:w-[70%] sm:max-lg:grid-cols-1">
@@ -132,9 +132,9 @@
         </div>
     </section>
 
-    <!-- presented section -->
+    <!-- presented section | hidden/grid -->
 
-    <section class="presented w-[75%] mx-auto mt-30 grid grid-cols-2 gap-12
+    <section class="presented w-[80%] mx-auto mt-30 grid grid-cols-2 gap-12
                     sm:max-lg:grid-cols-1">
 
         <div class="fresh-card-box grid grid-cols-2 grid-rows-3 gap-6">
@@ -167,6 +167,68 @@
             </p>
         </article>
 
+    </section>
+
+    <!-- clients section | hidden/grid -->
+
+    <section class="clients w-[75%] mx-auto py-20 px-16 rounded-xl
+                    bg-linear-to-r from-[#FF8938] to-[#FF0000] 
+                    grid grid-cols-2 gap-x-15
+                    sm:max-lg:grid-cols-1 sm:max-lg:gap-y-15">
+
+        <div class="flex flex-col justify-center items-start gap-7">
+            <h2 class="clients-title text-[45px] text-[#F4F4F4] font-extrabold">
+                Meet Our Super <br class="mobile-hide-clients"> Clients
+            </h2>
+            <p class="text-base/7 text-[#F4F4F4] font-medium">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <button class="bg-[#FFFFFF] py-4 px-7 rounded-lg cursor-pointer transition duration-200 ease-linear hover:scale-105">
+                <span class="font-bold bg-linear-to-r from-[#FF0000] to-[#FF8938] bg-clip-text text-transparent">Show All</span>
+            </button>
+        </div>
+
+        <div class="clients-card-box flex flex-col gap-y-10 relative
+                    sm:max-lg:w-[70%] sm:max-lg:mx-auto">
+
+            <div class="client-card bg-[#FFFFFF] rounded-lg py-10 px-12 absolute top-[28%] -left-10 right-10 z-10">
+                <p class="text-base font-normal text-[#777777]">
+                    We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h3 class="text-base font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
+                <p class="text-base font-normal text-[#777777] mt-2.5">Businessman</p>
+    
+                <div class="absolute -top-[6%] -left-[6%] bg-[#ffffff] px-2 py-2 rounded-[50%]">
+                    <img src="./images/client.png" alt="">
+                </div>
+
+                <img src="./images/circles.png" alt="" class="absolute right-5 bottom-5">
+            </div>
+            
+            <div class="client-card bg-[#FFFFFF] rounded-lg py-10 px-12 relative opacity-20">
+                <p class="text-base font-normal text-[#777777]">
+                    We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h3 class="text-base font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
+                <p class="text-base font-normal text-[#777777] mt-2.5">Businessman</p>
+
+                <div class="absolute -top-[6%] -left-[6%] bg-[#ffffff] px-2 py-2 rounded-[50%]">
+                    <img src="./images/client.png" alt="">
+                </div>
+            </div>
+
+            <div class="client-card bg-[#FFFFFF] rounded-lg py-10 px-12 relative opacity-20">
+                <p class="text-base font-normal text-[#777777]">
+                    We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h3 class="text-base font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
+                <p class="text-base font-normal text-[#777777] mt-2.5">Designer</p>
+
+                <div class="absolute -top-[6%] -left-[6%] bg-[#ffffff] px-2 py-2 rounded-[50%]">
+                    <img src="./images/client.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
